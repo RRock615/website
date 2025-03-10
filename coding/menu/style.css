@@ -1,0 +1,47 @@
+p{
+    color:blueviolet
+}
+h1{
+    color:black;
+    font-size: 22px;
+    display:block;
+    padding: 6px 6px 6px 25px;
+}
+
+.image {
+    margin-left: 20px;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    border: 4px solid #111;
+}
+
+.sidebar{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    background-color: #c5cfdd;
+    overflow-x:hidden;
+    padding-top: 20px;
+}
+
+.sidebar a{
+    padding: 6px 6px 6px 70px;
+    text-decoration: none;
+    color:#111;
+    display:block;
+}
+
+@media screen and (max-height:450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+    .img {padding-top: 15px;}
+}
+
+.main{
+    margin-left: 200px;
+}
